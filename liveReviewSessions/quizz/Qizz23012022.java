@@ -1,12 +1,19 @@
 package quizz;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Qizz23012022 {
     public static void main(String[] args) {
-        int x= 100;
-        System.out.println("x =" +x);
-        System.out.println(x+100);
+        ArrayList<Integer>list=new ArrayList<>();
+        list.addAll(Arrays.asList(1,2,3,4,5,6,7));
 
-        x += 400;
-        System.out.println("x =" +x);
+        for (Integer each : list) {
+            if(each % 2 != 0){
+                continue;
+            }
+            System.out.println(each+" ");
+            break;
+        }
     }
 }
