@@ -10,6 +10,7 @@ public class ThrowKeyword2 {
         //    throw new InterruptedException();
 
 
+
         //  System.out.println("hello world");
 
         // throw new Rectangle(5,7);
