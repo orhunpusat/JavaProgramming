@@ -61,7 +61,7 @@ public abstract class Car {
                 ", model='" + model + '\'' +
                 ", color='" + color + '\'' +
                 ", year=" + year +
-                ", price=" + price +
+                ", price=$" + price +
                 '}';
     }
 }
