@@ -1,4 +1,4 @@
-package day43_Abstraction;
+package day42_Exceptions;
 
 import java.util.Scanner;
 
