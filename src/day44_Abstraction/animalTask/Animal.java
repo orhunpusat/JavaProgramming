@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private final  String breed;
@@ -66,9 +66,23 @@ public class Animal {
         return color;
     }
 
+    public final void drink(){
+        System.out.println(name+" is drinking");
+    }
 
+    public abstract void eat();
 
-
+    @Override
+    public String toString() {
+        return getClass().getSimpleName()+"{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
 /*
 Animal Task:
