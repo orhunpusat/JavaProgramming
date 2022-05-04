@@ -7,6 +7,6 @@ public class ThrowsKeyword2 {
 
         System.out.println(8/0);
 
-        System.out.println("Test Completed");
+        System.out.println("Test Completed"); //Never used throws for unchecked exeptions
     }
 }
