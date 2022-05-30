@@ -30,7 +30,7 @@ public class ArrayPractice {
         }
         System.out.println("----------------------------------------------");
 
-        for (int i = months.length; i <0 ; i--) {//i:represents the index numbers of array starting from last index
+        for (int i = months.length-1; i>=0 ; i--) {//i:represents the index numbers of array starting from last index
             System.out.println(months[i]);
         }
     }
