@@ -1,6 +1,5 @@
-package Polymorphism;
+package day47_Polymorphism;
 
-import day43_Abstraction.employee.Developer;
 import day43_Abstraction.employee.Employee;
 import day43_Abstraction.employee.Person;
 import day43_Abstraction.employee.Tester;
